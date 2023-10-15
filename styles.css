@@ -1,0 +1,65 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #df0808;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #c543d1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.conversion-form {
+    text-align: center;
+}
+
+label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+input[type="number"] {
+    width: 200px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #ad4c4c;
+    color: #020202;
+    border: none;
+    cursor: pointer;
+}
+
+.reset-button{
+    text-align: center;
+}
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.images {
+    text-align: center;
+    margin-top: 20px;
+}
+
+img {
+    width: 300px;
+    margin: 40px;
+}
